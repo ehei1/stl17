@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.87
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p154 Iterator Adaptor for Generic Data Structure", "p154 Iterator Adaptor for Generic Data Structure\p154 Iterator Adaptor for Generic Data Structure.vcxproj", "{F022693E-F05A-4989-97F7-209755D54BF2}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p159 Iterator Algorithm Implementation", "p159 Iterator Algorithm Implementation\p159 Iterator Algorithm Implementation.vcxproj", "{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p169 Reverse Iterator Adapter", "p169 Reverse Iterator Adapter\p169 Reverse Iterator Adapter.vcxproj", "{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "p147 Custom Iterator", "p147 Custom Iterator\p147 Custom Iterator.vcxproj", "{EF4EF81D-919C-4512-91C2-AE441E89AD5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Debug|x64.ActiveCfg = Debug|x64
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Debug|x64.Build.0 = Debug|x64
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Debug|x86.ActiveCfg = Debug|Win32
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Debug|x86.Build.0 = Debug|Win32
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Release|x64.ActiveCfg = Release|x64
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Release|x64.Build.0 = Release|x64
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Release|x86.ActiveCfg = Release|Win32
+		{F022693E-F05A-4989-97F7-209755D54BF2}.Release|x86.Build.0 = Release|Win32
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Debug|x64.ActiveCfg = Debug|x64
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Debug|x64.Build.0 = Debug|x64
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Debug|x86.ActiveCfg = Debug|Win32
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Debug|x86.Build.0 = Debug|Win32
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Release|x64.ActiveCfg = Release|x64
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Release|x64.Build.0 = Release|x64
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Release|x86.ActiveCfg = Release|Win32
+		{13CFE527-730D-4A36-ADF3-B5FE12CF5BAD}.Release|x86.Build.0 = Release|Win32
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Debug|x64.ActiveCfg = Debug|x64
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Debug|x64.Build.0 = Debug|x64
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Debug|x86.Build.0 = Debug|Win32
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Release|x64.ActiveCfg = Release|x64
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Release|x64.Build.0 = Release|x64
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Release|x86.ActiveCfg = Release|Win32
+		{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}.Release|x86.Build.0 = Release|Win32
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Debug|x64.ActiveCfg = Debug|x64
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Debug|x64.Build.0 = Debug|x64
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Debug|x86.ActiveCfg = Debug|Win32
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Debug|x86.Build.0 = Debug|Win32
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Release|x64.ActiveCfg = Release|x64
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Release|x64.Build.0 = Release|x64
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Release|x86.ActiveCfg = Release|Win32
+		{EF4EF81D-919C-4512-91C2-AE441E89AD5F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5768892A-A5ED-495F-8559-D0CA34C27E54}
+	EndGlobalSection
+EndGlobal
