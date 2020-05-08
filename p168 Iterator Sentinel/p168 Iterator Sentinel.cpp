@@ -1,13 +1,60 @@
-﻿// p169 Reverse Iterator Adapter.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
+﻿// p168 Iterator Sentinel.cpp : 이 파일에는 'main' 함수가 포함됩니다. 거기서 프로그램 실행이 시작되고 종료됩니다.
 //
 
 #include <iostream>
-#include <list>
 #include <iterator>
+
+class Iterator_end {
+
+};
+
+class Iterator_begin {
+	const char* text{};
+
+public:
+	explicit Iterator_begin( const char* text_ ) :
+		text{ text_ }
+	{}
+
+	bool operator!=( const Iterator_end& end ) {
+		return !!*text;
+	}
+
+	void operator++() {
+		++text;
+	}
+
+	char operator*() const {
+		return *text;
+	}
+};
+
+class Iterator_range {
+	const char* text{};
+
+public:
+	explicit Iterator_range( const char* text_ ) : 
+		text{ text_ } {
+	}
+
+	Iterator_begin begin() {
+		return Iterator_begin{ text };
+	}
+
+	Iterator_end end() {
+		return {};
+	}
+};
 
 int main()
 {
-    
+	auto text = "this is test";
+
+	for ( auto ch : Iterator_range{ text } ) {
+		std::cout << ch;
+	}
+
+	std::cout << std::endl;
 }
 
 // 프로그램 실행: <Ctrl+F5> 또는 [디버그] > [디버깅하지 않고 시작] 메뉴

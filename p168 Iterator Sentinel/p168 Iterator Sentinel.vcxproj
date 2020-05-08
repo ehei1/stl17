@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
-    <ProjectGuid>{E57F5CF1-D19D-4064-B87D-8B767DE8A4AB}</ProjectGuid>
+    <ProjectGuid>{05509A42-09E4-40A3-ACA7-873766D82CFF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>p169ReverseIteratorAdapter</RootNamespace>
+    <RootNamespace>p168IteratorSentinel</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -151,7 +151,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="p169 Reverse Iterator Adapter.cpp" />
+    <ClCompile Include="p168 Iterator Sentinel.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
